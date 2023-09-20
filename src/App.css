@@ -1,0 +1,23 @@
+.container_principal {
+    width: 100vw;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* .title{
+    display: flex;
+    align-items: flex-end;
+} */
+
+.btn_create {
+    padding: 10px 20px;
+    background-color: rgb(26, 75, 164);
+    color: white;
+    border: none;
+}

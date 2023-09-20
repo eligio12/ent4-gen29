@@ -1,0 +1,123 @@
+/* .container_create{
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+    border-radius: 8px;
+    width: 35vw;
+} */
+
+.formuser_container{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active_formuser_container{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #9d9fa1ad;
+}
+
+.form{
+    width: 40vw;
+    max-width: 400px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #ffffff;
+}
+
+
+.form__close{
+    width: 35vw;
+    max-width: 350px;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+
+.formuser_title {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.btn_close{
+    border: none;
+    color: black;
+    font-size: 1.5em;
+    background-color: #ffffff;
+}
+
+.formuser_group{
+    width: 35vw;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.2em;
+}
+
+.formuser_label {
+    font-size: 0.9rem;
+    margin-left: 1vw;
+}
+
+.formuser_input {
+    padding: 0.3em 0.8em;
+    border: 0.1em solid #aaa;
+    background-color: #F9FAFC;
+    border-radius: 0.3em;
+    margin-bottom: 2vh;
+}
+
+
+.formuser_btn{
+    background-color: #5f6deb;
+    padding: 4px;
+    margin-top: 2em;
+    width: 10em;
+    color: white;
+    border: none;
+}
+
+@media (max-width: 720px){
+    .form{
+        width: 80vw;
+        max-width: 400px;
+        height: 60vh;
+    }
+
+    .form__close{
+        width: 80vw;
+        max-width: 230px;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    .formuser_group{
+        width: 70vw;
+        max-width: 330px;
+        margin-bottom: 0.2em;
+    }
+
+
+
+    
+    
+
+    
+
+}

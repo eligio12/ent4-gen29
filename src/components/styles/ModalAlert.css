@@ -1,0 +1,73 @@
+.active_alert {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9d9fa1ad;
+
+}
+
+.alert {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: -100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_alert {
+    width: 60vw;
+    max-width: 600px;
+    height: 25vh;
+    max-height: 150px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    position: fixed;
+}
+
+.alert_title{
+    margin-bottom: 1em;
+    font-size: 4vh;
+}
+
+.alert_button{
+    width: 12vw;
+    color: white;
+    font-size: 1.5em;
+    background-color: rgb(26, 75, 164);
+}
+
+@media (max-width: 550px){
+    .alert_button{
+        width: 25vw;
+        font-size: 1.3em;
+    }
+
+    .container_alert {
+        width: 80vw;
+        max-width: 800px;
+        height: 25vh;
+        max-height: 130px;
+    }
+
+    .alert_title{
+        font-size: 3vh;
+    }
+
+    
+    
+
+    
+
+}
