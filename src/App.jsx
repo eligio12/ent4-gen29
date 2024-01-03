@@ -11,7 +11,7 @@ function App() {
   const [alert, setAlert] = useState(false)
   
 
-  const baseUrl = 'https://users-crud.academlo.tech/swagger/?format=openapi'
+  const baseUrl = 'https://users-crud.academlo.tech/'
 
   const [users, getUsers, createUser, deleteUsers, updateUsers, statusAlert, setStatusAlert ] = useFetch(baseUrl)
 

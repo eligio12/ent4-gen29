@@ -35,7 +35,7 @@ const useFetch = (baseUrl) => {
             .then(res => {
                 console.log(res.data)
                 setStatusAlert("edit")
-                setInfoApi(infoApi.map(e => e.id === id ? res.data[1][0] : e))
+                setInfoApi(infoApi.map(e => e.id === id ? res.data : e))
             })
             .catch(err => console.log(err))
         
